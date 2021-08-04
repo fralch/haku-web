@@ -1,0 +1,37 @@
+/* Empty. Add your own CSS if you like */
+ion-content{
+	background-color: #33CD5F;
+}
+#titulo{
+	text-align: center;
+}
+h4{
+	color: white;
+	text-align: center;
+	margin: 2em;
+}
+#boton{
+	width: 40%;
+	margin-left: 30%;
+	border:solid white 2px;
+}
+#titulo{
+
+
+	width: 40%;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+
+@media screen and (min-width: 350px){
+	#titulo{
+		font-size: 1.7em;
+	}
+	h4{
+		font-size: 1.6em;
+	}
+	#boton{
+		font-size: 1.6em;
+	}
+}

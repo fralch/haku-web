@@ -1,0 +1,129 @@
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#mapa{
+	height: 100%;
+	
+}
+#botones{
+	background: #33CD5F;
+	height: 17%;
+	position: absolute;
+	text-align: center;
+	display: none;
+	width: 100%;
+
+}
+#botones p{
+	text-decoration: none;
+	color: white;
+	margin-top:-0.7em;
+	margin-bottom: 0;
+}
+#info{
+	display: none;
+}
+#info #txt_info{
+	margin-left: 10%;
+}
+#info img{
+	margin-top: 30%;
+	width: 80%;
+	margin-left: 10%;
+	border: 8px solid #88ECA5;
+}
+#info a{
+	background-color: #33CD5F;
+	color: white;
+	font-size: 1.2em;
+	margin-left: 17%;
+	padding:5% 10%;
+	text-decoration: none;
+	width: 80%;
+	border-radius: 10px;
+	
+}
+#pie{
+	background: #33CD5F;
+	width: 100%;
+	margin: 0;
+}
+#pie p{
+	margin: 0;
+	color: #88ECA5;
+	text-align: center;
+
+}
+
+@media screen and (min-width: 360px){
+	#botones{
+	height: 15%;
+	}
+
+
+}
+@media screen and (min-width: 600px){
+	#botones{
+	height: 9%;
+	}
+	#info img{
+	margin-top: 15%;
+	}
+
+	#info a{
+	font-size: 1.2em;
+	margin-left: 25%;
+	}
+
+}
+@media screen and (min-width: 635px){
+	#botones{
+	height: 17%;
+	}
+	#info img{
+	margin-top: 15%;
+	}
+	#info a{
+	font-size: 1.2em;
+	margin-left: 25%;
+	padding:3% 10%;
+	}
+
+}
+@media screen and (min-width: 760px){
+	#botones{
+	height: 9%;
+	}
+	#info img{
+	margin-top: 15%;
+	}
+	#info a{
+	font-size: 1.2em;
+	margin-left: 27%;
+	padding:3% 10%;
+	}
+
+}
+@media screen and (min-width: 950px){
+	#botones{
+	height: 9%;
+	}
+	#info img{
+	margin-top: 10%;
+	}
+	#botones p{
+	font-size: 1.5em;
+	}
+	#info a{
+	font-size: 1.2em;
+	margin-left: 25%;
+	padding:2% 20%;
+	}
+
+}
