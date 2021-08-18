@@ -54,7 +54,10 @@ function fn_ok(rta) {
    		$("#info").css({"display": "block"}); 
    		$("#mapa").css({"height": "90%"}); 
    		
-
+			
+		setTimeout(function() {
+			window.scrollBy(0,500);
+		}, 3000);
 
    		// Limpiando el localstorage	 
    		 localStorage.removeItem('nombre_1');
