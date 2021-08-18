@@ -1,0 +1,63 @@
+{
+  "name": "Haku",
+  "short_name": "Haku",
+  "description": "Aplicativo para rutas de transporte publico",
+  "background_color": "#006FAA",
+  "theme_color": "#006FAA",
+  "display": "standalone",
+  "start_url": "./?utm_source=web_app_manifest",
+  "scope": "./",
+  "lang": "es-PE",
+  "icons": [
+    {
+      "src": "images/index/icono_1024.png",
+      "sizes": "1025x1025",
+      "type": "image/png"
+    },
+    {
+      "src": "images/index/icono_512.png",
+      "sizes": "513x513",
+      "type": "image/png"
+    },
+    {
+      "src": "images/index/icono_384.png",
+      "sizes": "385x385",
+      "type": "image/png"
+    },
+    {
+      "src": "images/index/icono_256.png",
+      "sizes": "257x257",
+      "type": "image/png"
+    },
+    {
+      "src": "images/index/icono_192.png",
+      "sizes": "193x193",
+      "type": "image/png"
+    },
+    {
+      "src": "images/index/icono_128.png",
+      "sizes": "129x129",
+      "type": "image/png"
+    },
+    {
+      "src": "images/index/icono_96.png",
+      "sizes": "97x97",
+      "type": "image/png"
+    },
+    {
+      "src": "images/index/icono_64.png",
+      "sizes": "65x65",
+      "type": "image/png"
+    },
+    {
+      "src": "images/index/icono_32.png",
+      "sizes": "33x33",
+      "type": "image/png"
+    },
+    {
+      "src": "images/index/icono_16.png",
+      "sizes": "17x17",
+      "type": "image/png"
+    }
+  ]
+}

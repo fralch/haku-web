@@ -7,7 +7,7 @@
 
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-
+    <link rel="manifest" href="manifest.json">
     <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
     <link href="css/ionic.app.css" rel="stylesheet">
     -->
@@ -34,5 +34,13 @@
       <a id="boton" href="2.html" class="button icon-right ion-chevron-right button-balanced">Empezar</a>
       </ion-content>
     </ion-pane>
+
+    <script type="text/javascript">
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js')
+                .then(reg => console.log('Registro de SW exitoso', reg))
+                .catch(err => console.warn('Error al tratar de registrar el sw', err))
+      }
+    </script>
   </body>
 </html>
